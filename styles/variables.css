@@ -3,7 +3,7 @@
   и их переопределение под различные устройства
 */
 
-:root{
+:root {
   --accent-color: #FF0070;
   --fonts: IBM Plex Mono, Arial, sans-serif;
   --textSizeNormal: 18px;

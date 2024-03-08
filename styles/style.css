@@ -209,7 +209,7 @@
   
 }
 
-.what__title{
+.what__title {
   grid-column-start: 3 span;
 }
 
@@ -367,7 +367,7 @@
     max-width: 472px;
   }
 
-  .what{
+  .what {
     display: flex;
     flex-direction: column;
   }
@@ -407,6 +407,7 @@
 
   .header__theme-menu-list {
     margin-block-start: 85px;
+    margin-inline-end: 10px;
   }
 
   .header__rec::before {
@@ -415,10 +416,6 @@
 
   .header__rec::after {
     right: 20px;
-  }
-
-  .header__theme-menu-list{
-    margin-inline-end: 10px;
   }
 
   .header__title {
