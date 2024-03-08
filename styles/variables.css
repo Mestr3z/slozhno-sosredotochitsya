@@ -2,3 +2,27 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+
+:root{
+  --accent-color: #FF0070;
+  --fonts: IBM Plex Mono, Arial, sans-serif;
+  --textSizeNormal: 18px;
+  --textSizeBig: 157px;
+  --fontWeightBig: 700;
+  --titleColor: #DB00FF;
+  --textColor: #F1B2CE;
+  --blackTextColor: #000028;
+  --textLineHeight: 23.4px;
+  --fontWeightNormal: 400;
+  --focusColor: #FF0070;
+  --hoverColor: #FF007066;
+  --backgroundImage: url(../images/cover-image-dark.png);
+  --activeButtonColor: #FF0070;
+  --buttonTextColor: #FF0070;
+  --titleDecorBackground: #FF0070;
+  --titleBlocksCover: #FF0070;
+  --linkTextShadow: #FF0070;
+  --howBackTitle: #FF0070;
+  --cornerColor: #FF0070;
+  --visible: visible;
+}

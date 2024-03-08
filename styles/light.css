@@ -5,8 +5,39 @@
 */
 
 .page.theme_light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --backgroundImage: url(../images/cover-image-light.png);
+  --backgroundColor: #FFF1F7;
+  --titleColor: #FFC2E6;
+  --activeButtonColor: #353430;
+  --buttonTextColor: #353430;
+  --titleDecorBackground: #FF8DCB;
+  --blackTextColor: #353430;
+  --titleBlocksCover: #353430;
+  --textColor: #353430;
+  --linkTextShadow: #FF8DCB;
+  --howBackTitle: #FF8DCB;
+  --cornerColor: #353430;
+  --visible: hidden;
+  --hoverColor: #32312D66;
+  --focusColor: #353430;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --backgroundImage: url(../images/cover-image-light.png);
+    --backgroundColor: #FFF1F7;
+    --titleColor: #FFC2E6;
+    --activeButtonColor: #353430;
+    --buttonTextColor: #353430;
+    --titleDecorBackground: #FF8DCB;
+    --blackTextColor: #353430;
+    --titleBlocksCover: #353430;
+    --textColor: #353430;
+    --linkTextShadow: #FF8DCB;
+    --howBackTitle: #FF8DCB;
+    --cornerColor: #353430;
+    --visible: hidden;
+    --hoverColor: #32312D66;
+    --focusColor: #353430;
+  }
 }
