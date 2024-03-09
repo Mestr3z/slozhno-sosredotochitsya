@@ -4,7 +4,7 @@
   переключая тему
 */
 
-.page.theme_dark{
+.page.theme_dark {
   --accent-color: #FF0070;
   --fonts: 'IBM Plex mono', 'Courier New', monospace;
   --textSizeNormal: 18px;
