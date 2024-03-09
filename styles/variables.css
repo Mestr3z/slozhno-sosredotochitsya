@@ -5,7 +5,7 @@
 
 :root {
   --accent-color: #FF0070;
-  --fonts: IBM Plex Mono, Arial, sans-serif;
+  --fonts: 'IBM Plex mono', 'Courier New', monospace;
   --textSizeNormal: 18px;
   --textSizeBig: 157px;
   --fontWeightBig: 700;
