@@ -1,7 +1,7 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-  margin: 0;
+  margin: 0 auto;
   background-color: var(--blackTextColor);
   background-image: var(--backgroundImage);
   background-size: cover;
@@ -15,6 +15,8 @@
   flex-direction: column;
   min-height: 100vh;
   position: relative;
+  max-width: 1024px;
+  margin: 0 auto;
 }
 
 .header__theme-menu {
@@ -113,12 +115,11 @@
 .header__title {
   margin: 0;
   margin-block-start: 273px;
-  font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  font-size: clamp(7.25rem, 5.7694rem + 6.3174vw, 9.8125rem);
   font-weight: var(--fontWeightBig);
   color: var(--titleColor);
   text-shadow: 4px 4px 0 var(--accent-color);
   line-height: 129.53px;
-  word-spacing: 80px;
   font-style: var(--fonts);
   cursor: default;
 }
@@ -175,12 +176,11 @@
 .about-text {
   margin: 0;
   margin-block-start: 10px;
-  margin-block-end: 10px;
+  margin-block-end: 20px;
   font-size: var(--textSizeNormal);
   color: var(--textColor);
   text-decoration: none;
   line-height: var(--textLineHeight);
-  word-spacing: 15px;
   cursor: default;
 }
 
@@ -192,8 +192,7 @@
 }
 
 .why__container-link:hover {
-  text-decoration: underline;
-  text-decoration-color: #353430;
+  border-block-end: 1px solid var(--textColor);
 }
 
 .why__container-link:focus {
@@ -205,7 +204,7 @@
 }
 
 .what {
-  margin-block-start: 70px;
+  margin-block-start: 60px;
   display: grid;
   justify-content: center;
   gap: 20px;
@@ -233,7 +232,7 @@
 
 .how {
   display: flex;
-  margin-block-start: 70px;
+  margin-block-start: 60px;
   justify-content: center;
   gap: 20px;
 }
@@ -290,6 +289,7 @@
 
 .pic3 {
   grid-row-start: span 2;
+
 }
 
 .pic5 {
@@ -298,21 +298,33 @@
 
 .footer {
   position: relative;
-  margin-top: 70px;
+  margin-top: 80px;
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  max-width: 1024px;
+  margin: 0 auto;
 }
 
 .footer__title {
   font-weight: var(--fontWeightBig);
-  font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  font-size: clamp(7.25rem, 5.7694rem + 6.3174vw, 9.8125rem);
   color: var(--titleColor);
   text-align: center;
   margin: 0;
   text-shadow: 2px 2px #FF0070;
   cursor: default;
+}
+
+@media(width >=1025px) {
+  .header {
+    justify-content: space-between;
+  }
+
+  .header__title {
+    margin-block-start: 0px;
+  }
 }
 
 @media (max-width: 1023px) {
@@ -322,12 +334,12 @@
 
   .header__theme-menu-list {
     flex-direction: column;
-    margin-block-start: 156px;
+    margin-block-start: 191px;
     margin-inline-end: 20px;
   }
 
   .header__title {
-    margin-block-start: 173px;
+    margin-block-start: 160px;
   }
 
   .header__text {
@@ -355,7 +367,6 @@
 
 @media(max-width: 767px) {
 
-
   .main {
     margin-inline: 10px 10px;
   }
@@ -366,23 +377,27 @@
 
   .decorated-zone::before {
     left: 10px;
+    bottom: 10px;
   }
 
   .decorated-zone::after {
     right: 10px;
+    top: 10px;
   }
 
   .header__theme-menu-list {
-    margin-block-start: 85px;
-    margin-inline-end: 10px;
+    margin-block-start: 74px;
+    margin-inline-end: 0;
   }
 
   .header__rec::before {
     right: 40px;
+    top: 10px;
   }
 
   .header__rec::after {
     right: 20px;
+    top: 20px;
   }
 
   .header__title {
@@ -397,11 +412,11 @@
 
   .why {
     flex-direction: column;
-    margin-block-start: 40px;
+    margin-block-start: 41px;
   }
 
   .what {
-    margin-block-start: 50px;
+    margin-block-start: 30px;
   }
 
   .how {
