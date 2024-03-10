@@ -351,11 +351,6 @@
   .what__container_column {
     max-width: 100%;
   }
-
-  .footer {
-    padding-top: 463px;
-    padding-bottom: 462px;
-  }
 }
 
 @media(max-width: 767px) {
@@ -369,11 +364,11 @@
     padding-inline: 10px;
   }
 
-  .header::before {
+  .decorated-zone::before {
     left: 10px;
   }
 
-  .header::after {
+  .decorated-zone::after {
     right: 10px;
   }
 
@@ -425,18 +420,5 @@
   .inpicture__container {
     display: flex;
     flex-wrap: wrap;
-  }
-
-  .footer {
-    padding-block-start: 286px;
-    padding-block-end: 285px;
-  }
-
-  .footer::after {
-    right: 10px;
-  }
-
-  .footer::before {
-    left: 10px;
   }
 }
