@@ -305,7 +305,7 @@
 
 .footer {
   position: relative;
-  margin-top: 80px;
+  margin-top: 52px;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -458,7 +458,7 @@
   }
 
   .inpicture {
-    margin-block-start: 50px;
+    margin-block-start: 43px;
   }
 
   .inpicture__container {
